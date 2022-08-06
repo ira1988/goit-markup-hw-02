@@ -2,12 +2,12 @@
     --accent-color: #2196F3;
     --text-color: #757575;
     --title-color: #212121;
-    --back-ground-color:#F5F5F5;
+   
 }
 
 body{
     color:var(--text-color);
-    background-color: var(--back-ground-color);
+    background-color:#F5F5F5 ;
     font-family:'Roboto',sans-serif;
     font-weight: 400;
 font-size: 14px;
@@ -90,6 +90,10 @@ color:var(--title-color);
 
 
   /* < !-- Особливості --> */
+  .our-benefits,.our-work{
+    background-color:inherit
+  }
+
   .benefits{
     display: none;
   }
@@ -100,18 +104,22 @@ color:var(--title-color);
     line-height: 1.14;
     text-transform: uppercase;
 }
-  .section-title{
+  .work-title,.team-title{
     color:var(--title-color);
     font-weight: 700;
         font-size: 36px;
         line-height:1.16;
   }
 /* < !-- Наша команда --> */
+.our-team{
+    background-color: #F5F4FA;;
+}
 .name{
     font-weight: 500;
         font-size: 16px;
         line-height:1.18;
         color: var(--title-color);
+       
 }
 
 
