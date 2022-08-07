@@ -51,13 +51,11 @@ color:var(--title-color);
         line-height: 1.14;
         letter-spacing: 0.02em;
 }
-.nav-link:hover,.nav-contacts:hover{
+.nav-link:hover,.nav-contacts:hover,.nav-link:focus,
+.nav-contacts:focus{
     color: var(--accent-color);
 }
-.nav-link:focus,.nav-contacts:focus{
-    color: var(--accent-color); 
-    
-}
+
 .nav-contacts{
     color: var(--text-color);
 }
@@ -139,4 +137,42 @@ color:var(--title-color);
   .footer-link {
 
       color: rgba(255, 255, 255, 0.6);
+  }   
+
+  /* Портфоліо */
+  .portfolio{
+  background-color: inherit;
   }
+  .hidden-title{
+    display: none;
+  }
+
+
+  .portfolio-buttons{
+    font-family: inherit;
+        font-style: 400;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        letter-spacing:0.03em;
+        color: var(--title-color);
+        background-color:#F5F4FA;
+  }
+  .portfolio-buttons:hover,.portfolio-buttons:focus{
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+  }
+
+
+  
+  .portfolio-title{
+       font-weight: 700;
+        font-size: 18px;
+        line-height: 2.0;
+        letter-spacing: 0.06em;
+        color: var(--title-color);
+  }
+  .portfolio-text{
+    font-size: 16px;
+    line-height:1.87;
+}
