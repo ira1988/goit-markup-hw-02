@@ -1,181 +1,181 @@
-:root{
-    --accent-color: #2196F3;
-    --text-color: #757575;
-    --title-color: #212121;
-   
+:root {
+  --accent-color: #2196f3;
+  --text-color: #757575;
+  --title-color: #212121;
 }
 
-body{
-    color:var(--text-color);
-    background-color:#F5F5F5 ;
-    font-family:'Roboto',sans-serif;
-    font-weight: 400;
-font-size: 14px;
-line-height:1.71;
-letter-spacing: 0.03em;
+body {
+  color: var(--text-color);
+  background-color: #f5f5f5;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-ul{
+ul {
   list-style: none;
 }
 
- /* < !-- навігація --> */
+/* < !-- навігація --> */
 
-header{
-    background-color: #FFFFFF;
+header {
+  background-color: #ffffff;
 }
-.logo{
-    color: var(--accent-color);
-font-family: 'Raleway';
-        font-weight: 700;
-        font-style:inherit;
-        font-size: 26px;
-        line-height: 1.19;
-        letter-spacing: inherit;
+.logo {
+  color: var(--accent-color);
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-style: inherit;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: inherit;
 }
-.logo-header{
-    color: #000000;
+.logo-header {
+  color: #000000;
 }
-.logo-foot{
-    color: #FFFFFf;
-}
-
-.nav-link, .nav-contacts{
-   font-family: inherit;
-   font-style: inherit;
-color:var(--title-color);
-    font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.02em;
-}
-.nav-link:hover,.nav-contacts:hover,.nav-link:focus,
-.nav-contacts:focus,.footer-link:hover,.footer-link:focus{
-    color: var(--accent-color);
+.logo-foot {
+  color: #ffffff;
 }
 
-.nav-contacts{
-    color: var(--text-color);
+.nav-link,
+.nav-contacts {
+  font-family: inherit;
+  font-style: inherit;
+  color: var(--title-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
-  /* < !-- секція з кнопкою --> */
-  .hero{
-    background-color: #2F303A;
-  }
-  .hero-title{
-    font-weight: 900;
-        font-size: 44px;
-        line-height: 1.36;
-        letter-spacing: 0.06em;
-        text-transform: uppercase;
-        color: #FFFFFF;
-    
-  }
-  .hero-button{
-    background-color:var(--accent-color) ;
-    color: #FFFFFF;
+.nav-link:hover,
+.nav-contacts:hover,
+.nav-link:focus,
+.nav-contacts:focus,
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-color);
+}
 
-    font-weight: 700;
-        font-size: 16px;
-        line-height: 1.87;
-  }
-  .hero-button:hover{
-    color:#188CE8 ;
-    color: #FFFFFF;
-  }
-.hero-button,.portfolio-buttons{
-  cursor:pointer;
+.nav-contacts {
+  color: var(--text-color);
 }
 
 
-  /* < !-- Особливості --> */
-  .our-benefits,.our-work{
-    background-color:inherit
-  }
+/* < !-- секція з кнопкою --> */
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.hero-button {
+  background-color: var(--accent-color);
+  color: #ffffff;
 
-  .benefits{
-    display: none;
-  }
-.benefits-title {
-    color: var(--title-color);
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
 }
-  .work-title,.team-title{
-    color:var(--title-color);
-    font-weight: 700;
-        font-size: 36px;
-        line-height:1.16;
-  }
-/* < !-- Наша команда --> */
-.our-team{
-    background-color: #F5F4FA;;
+.hero-button:hover {
+  color: #188ce8;
+  color: #ffffff;
 }
-.name{
-    font-weight: 500;
-        font-size: 16px;
-        line-height:1.18;
-        color: var(--title-color);
-       
+.hero-button,
+.portfolio-buttons {
+  cursor: pointer;
 }
 
-        /* footer */
-  footer {
-      background-color: #2F303A;
-  }
-
-  .address {
-
-      color: #FFFFFF;
-
-  }
-
-  .footer-link {
-
-      color: rgba(255, 255, 255, 0.6);
-  }   
-
-  /* Портфоліо */
-  .portfolio{
+/* < !-- Особливості --> */
+.our-benefits,
+.our-work {
   background-color: inherit;
-  }
-  .hidden-title{
-    display: none;
-  }
+}
 
+.benefits {
+  display: none;
+}
+.benefits-title {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.work-title,
+.team-title {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+}
+/* < !-- Наша команда --> */
+.our-team {
+  background-color: #f5f4fa;
+}
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  color: var(--title-color);
+}
 
-  .portfolio-buttons{
-    font-family: inherit;
-        font-style: 400;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.62;
-        letter-spacing:0.03em;
-        color: var(--title-color);
-        background-color:#F5F4FA;
-  }
-  .portfolio-buttons:hover,.portfolio-buttons:focus{
-    color: #FFFFFF;
-    background-color: var(--accent-color);
-  }
+/* footer */
+footer {
+  background-color: #2f303a;
+}
 
+.address {
+  color: #ffffff;
+}
 
-  
-    /* portfolio link img */
+.footer-link {
+  color: rgba(255, 255, 255, 0.6);
+}
 
-.portfolio-link{
+/* Портфоліо */
+.portfolio {
+  background-color: inherit;
+}
+.hidden-title {
+  display: none;
+}
+
+.portfolio-buttons {
+  font-family: inherit;
+  font-style: 400;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+  background-color: #f5f4fa;
+}
+.portfolio-buttons:hover,
+.portfolio-buttons:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+/* portfolio link img */
+
+.portfolio-link {
   color: inherit;
   font-size: 16px;
   line-height: 1.8;
- 
 }
 .portfolio-title {
   font-weight: 700;
   font-size: 18px;
-  line-height: 2.0;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-color);
 }
