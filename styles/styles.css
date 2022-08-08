@@ -52,7 +52,7 @@ color:var(--title-color);
         letter-spacing: 0.02em;
 }
 .nav-link:hover,.nav-contacts:hover,.nav-link:focus,
-.nav-contacts:focus{
+.nav-contacts:focus,.footer-link:hover,.footer-link:focus{
     color: var(--accent-color);
 }
 
@@ -84,7 +84,9 @@ color:var(--title-color);
     color:#188CE8 ;
     color: #FFFFFF;
   }
-
+.hero-button,.portfolio-buttons{
+  cursor:pointer;
+}
 
 
   /* < !-- Особливості --> */
@@ -119,9 +121,6 @@ color:var(--title-color);
         color: var(--title-color);
        
 }
-
-
-
 
         /* footer */
   footer {
