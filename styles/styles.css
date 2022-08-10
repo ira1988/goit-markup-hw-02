@@ -83,21 +83,15 @@ ul {
   line-height: 1.87;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
-.hero-button:hover,
-.hero-button:focus {
-  color:var(--button-active);
-  color: var(--white);
+.hero-button:hover,.hero-button:focus{
+  background-color:#188CE8;
 }
-
+    
 .portfolio-buttons {
   cursor: pointer;
 }
 
 /* < !-- Особливості --> */
-.our-benefits,
-.our-work {
-  background-color: inherit;
-}
 
 .visually-hidden {
   position: absolute;
