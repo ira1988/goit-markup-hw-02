@@ -2,78 +2,44 @@
 <html lang="uk">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      http-equiv="X-UA-Compatible"
-      content="IE=edge"
-    />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
-    <link
-      rel="stylesheet"
-      href="./styles/styles.css"
-    />
-    <link
-      rel="preconnect"
-      href="https://fonts.googleapis.com"
-    />
-    <link
-      rel="preconnect"
-      href="https://fonts.gstatic.com"
-      crossorigin
-    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <title>WebStudio</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
   </head>
   <body>
     <header>
       <!-- навігація -->
       <nav>
         <a class="logo" href="./index.html"
-          >Web<span class="logo-header"
-            >Studio</span
-          ></a
+          >Web<span class="logo-header">Studio</span></a
         >
         <ul>
           <li>
-            <a
-              href="./index.html"
-              class="nav-link"
-              >Студія</a
-            >
+            <a href="./index.html" class="nav-link">Студія</a>
           </li>
           <li>
-            <a
-              href="./portfolio.html"
-              class="nav-link"
-              >Портфоліо</a
-            >
+            <a href="./portfolio.html" class="nav-link">Портфоліо</a>
           </li>
           <li>
-            <a href="#" class="nav-link"
-              >Контакти</a
-            >
+            <a href="#" class="nav-link">Контакти</a>
           </li>
         </ul>
       </nav>
       <ul>
         <li>
-          <a
-            href="mailto:info@devstudio.com"
-            class="nav-contacts"
-          >
+          <a href="mailto:info@devstudio.com" class="nav-contacts">
             info@devstudio.com</a
           >
         </li>
         <li>
-          <a
-            href="tel:+380961111111"
-            class="nav-contacts"
-          >
+          <a href="tel:+380961111111" class="nav-contacts">
             +38 096 111 11 11</a
           >
         </li>
@@ -82,54 +48,38 @@
     <main>
       <!-- секція з кнопкою -->
       <section class="hero">
-        <h1 class="hero-title">
-          Ефективні рішення для вашого бізнесу
-        </h1>
+        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
 
-        <button class="hero-button" type="button">
-          Замовити послугу
-        </button>
+        <button class="hero-button" type="button">Замовити послугу</button>
       </section>
       <!-- Особливості -->
       <section class="our-benefits">
-        <h2 class="benefits">Особливості</h2>
+        <h2 class="visually-hidden">Особливості</h2>
         <ul>
           <li>
-            <h3 class="benefits-title">
-              Увага до деталей
-            </h3>
+            <h3 class="benefits-title">Увага до деталей</h3>
             <p>
-              Ідейні міркування, і навіть початок
-              повсякденної роботи з формування
-              позиції.
+              Ідейні міркування, і навіть початок повсякденної роботи з
+              формування позиції.
             </p>
           </li>
           <li>
-            <h3 class="benefits-title">
-              Пунктуальність
-            </h3>
+            <h3 class="benefits-title">Пунктуальність</h3>
             <p>
-              Завдання організації, особливо рамки
-              і місце навчання кадрів тягне у
-              себе.
+              Завдання організації, особливо рамки і місце навчання кадрів тягне
+              у себе.
             </p>
           </li>
           <li>
-            <h3 class="benefits-title">
-              Планування
-            </h3>
+            <h3 class="benefits-title">Планування</h3>
             <p>
-              Так само консультація з широким
-              активом значною мірою зумовлює.
+              Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
           <li>
-            <h3 class="benefits-title">
-              Сучасні технології
-            </h3>
+            <h3 class="benefits-title">Сучасні технології</h3>
             <p>
-              Значимість цих проблем настільки
-              очевидна, що реалізація планових
+              Значимість цих проблем настільки очевидна, що реалізація планових
               завдань.
             </p>
           </li>
@@ -137,9 +87,7 @@
       </section>
       <!-- Чим ми займаємося -->
       <section class="our-work">
-        <h2 class="work-title">
-          Чим ми займаємося
-        </h2>
+        <h2 class="work-title">Чим ми займаємося</h2>
         <ul>
           <li>
             <img
@@ -172,16 +120,18 @@
       <section class="our-team">
         <h2 class="team-title">Наша команда</h2>
         <ul>
-          <li>
+          <li class="team-list">
             <img
               src="./images/man-in-brown.jpg"
               alt=" чоловік з бородою в коричневій сорочці"
               width="270"
             />
-            <h3 class="name">Ігор Дем'яненко</h3>
-            <p>Product Designer</p>
+         
+              <h3 class="name">Ігор Дем'яненко</h3>
+              <p>Product Designer</p>
+           
           </li>
-          <li>
+          <li class="team-list">
             <img
               src="./images/lady.jpg"
               alt=" жінка блондинка в чорному піджаку"
@@ -190,7 +140,7 @@
             <h3 class="name">Ольга Рєпіна</h3>
             <p>Frontend Developer</p>
           </li>
-          <li>
+          <li class="team-list">
             <img
               src="./images/man-in-blue.jpg"
               alt=" чоловік в голубій сорочці"
@@ -199,7 +149,7 @@
             <h3 class="name">Микола Тарасов</h3>
             <p>Marketing</p>
           </li>
-          <li>
+          <li class="team-list">
             <img
               src="./images/man-in-black.jpg"
               alt=" чоловік в чорній футболці"
@@ -214,9 +164,7 @@
 
     <footer>
       <a class="logo" href="./index.html"
-        >Web<span class="logo-foot"
-          >Studio</span
-        ></a
+        >Web<span class="logo-foot">Studio</span></a
       >
       <address>
         <ul>
@@ -230,17 +178,12 @@
             >
           </li>
           <li>
-            <a
-              href="mailto:info@devstudio.com"
-              class="footer-link"
-            >
+            <a href="mailto:info@devstudio.com" class="footer-link">
               info@devstudio.com</a
             ><br />
           </li>
           <li>
-            <a
-              href="tel:+380961111111"
-              class="footer-link"
+            <a href="tel:+380961111111" class="footer-link"
               >+38 096 111 11 11</a
             >
           </li>
