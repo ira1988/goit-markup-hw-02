@@ -5,12 +5,14 @@
   --white: #ffffff;
   --team-color: #f5f4fa;
   --button-active: #188ce8;
+  --font-family-main:'Roboto', sans-serif;
+  --font-family-logo:'Raleway';
 }
 
 body {
   background-color: var(--white);
   color: var(--text-color);
-  font-family: 'Roboto', sans-serif;
+  font-family:var(--font-family-main);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -26,7 +28,7 @@ ul {
 
 .logo {
   color: var(--accent-color);
-  font-family: 'Raleway';
+  font-family:var(--font-family-logo);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
